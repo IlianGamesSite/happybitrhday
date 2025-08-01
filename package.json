@@ -6,11 +6,14 @@
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+"homepage": "https://github.com/IlianGamesSite/happybitrhday",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+},
+
   "dependencies": {
     "canvas-confetti": "^1.9.3",
     "scratchcard-js": "^1.5.5",
@@ -18,6 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
+    "gh-pages": "^6.3.0",
     "vite": "^7.0.6",
     "vite-plugin-vue-devtools": "^8.0.0"
   }
